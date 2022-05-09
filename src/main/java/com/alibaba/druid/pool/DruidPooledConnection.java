@@ -55,6 +55,7 @@ import com.alibaba.druid.util.JdbcUtils;
  * @author wenshao [szujobs@hotmail.com]
  */
 public class DruidPooledConnection extends PoolableWrapper implements javax.sql.PooledConnection, Connection {
+   // todo
     private final static Log                   LOG                  = LogFactory.getLog(DruidPooledConnection.class);
     public static final  int                   MAX_RECORD_SQL_COUNT = 10;
     protected            Connection            conn;
